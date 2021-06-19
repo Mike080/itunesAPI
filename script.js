@@ -15,7 +15,7 @@ function getData() {
       let outputToPage = "";
       json.results.forEach((song) => {
         outputToPage += `
-          <div class="col s4 m4 l4"
+          <div class="col s4 m4 l4">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src="${song.artworkUrl100}">
